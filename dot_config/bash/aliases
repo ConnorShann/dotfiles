@@ -1,0 +1,15 @@
+
+#other
+alias c='clear'
+alias vim='nvim'
+
+#ls
+alias ls='ls --color=auto'
+alias ll='ls -la --color=auto'
+
+#git
+alias gs='git status'
+alias gl='git log'
+alias gri='gir rebase -i'
+alias gf='git fetch'
+alias gdl='git diff --staged'

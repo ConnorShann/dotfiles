@@ -1,0 +1,11 @@
+if [ -f $HOME/.config/bash/settings ]; then
+	. $HOME/.config/bash/settings
+fi
+
+if [ -f $HOME/.config/bash/aliases ]; then
+	. $HOME/.config/bash/aliases
+fi
+
+if [ -f $HOME/.local_custom_bashrc ]; then
+	. $HOME/.local_custom_bashrc
+fi
