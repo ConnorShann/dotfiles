@@ -9,3 +9,7 @@ fi
 if [ -f $HOME/.local_custom_bashrc ]; then
 	. $HOME/.local_custom_bashrc
 fi
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+[ -f ~/.config/bash/.exports ] && source ~/.config/bash/.exports
+[ -f ~/.config/bash/.plugins ] && source ~/.config/bash/.plugins
